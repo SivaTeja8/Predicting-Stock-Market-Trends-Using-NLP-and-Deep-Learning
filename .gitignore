@@ -1,0 +1,23 @@
+# Ignore data files
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.pkl
+*.h5
+*.keras
+*.pt
+
+# Ignore environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore IDE
+.vscode/
+.idea/
+
+# Ignore Jupyter
+.ipynb_checkpoints/
+
+# Ignore OS
+.DS_Store
+Thumbs.db
